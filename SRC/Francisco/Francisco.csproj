@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,16 +47,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cocinar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cocinar.Designer.cs">
+      <DependentUpon>Cocinar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ingredeintes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingredeintes.Designer.cs">
+      <DependentUpon>Ingredeintes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecetaIngrediente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecetaIngrediente.Designer.cs">
+      <DependentUpon>RecetaIngrediente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recetas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recetas.Designer.cs">
+      <DependentUpon>Recetas.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingredeintes.resx">
+      <DependentUpon>Ingredeintes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +94,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RecetaIngrediente.resx">
+      <DependentUpon>RecetaIngrediente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recetas.resx">
+      <DependentUpon>Recetas.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
