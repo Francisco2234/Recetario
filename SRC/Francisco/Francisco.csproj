@@ -59,6 +59,15 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modelos\Ingredientes.cs" />
+    <Compile Include="Modelos\Receta.cs" />
+    <Compile Include="Modelos\RecetaIngrediente.cs" />
+    <Compile Include="Receta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Receta.Designer.cs">
+      <DependentUpon>Receta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ingredeintes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,14 +82,11 @@
     <Compile Include="RecetaIngrediente.Designer.cs">
       <DependentUpon>RecetaIngrediente.cs</DependentUpon>
     </Compile>
-    <Compile Include="Recetas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Recetas.Designer.cs">
-      <DependentUpon>Recetas.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receta.resx">
+      <DependentUpon>Receta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ingredeintes.resx">
       <DependentUpon>Ingredeintes.cs</DependentUpon>
@@ -96,9 +102,6 @@
     </Compile>
     <EmbeddedResource Include="RecetaIngrediente.resx">
       <DependentUpon>RecetaIngrediente.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Recetas.resx">
-      <DependentUpon>Recetas.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

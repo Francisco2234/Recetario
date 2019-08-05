@@ -83,7 +83,6 @@
             this.agregar.TabIndex = 11;
             this.agregar.Text = "Agregar";
             this.agregar.UseVisualStyleBackColor = true;
-            this.agregar.Click += new System.EventHandler(this.agregar_Click);
             // 
             // eliminar
             // 

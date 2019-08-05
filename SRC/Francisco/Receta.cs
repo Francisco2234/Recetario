@@ -31,9 +31,5 @@ namespace Francisco
         {
 
         }
-
-        private void agregar_Click(object sender, EventArgs e)
-        {
-        }
     }
 }
