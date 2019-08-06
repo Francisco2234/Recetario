@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Francisco.Modelos
 {
-    public class Ingredientes
+    public class Ingrediente
     {
         public string Nombre { get; set; }
         public int Cantidad { get; set; }

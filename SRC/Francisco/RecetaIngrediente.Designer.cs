@@ -28,22 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cocinarreceta = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.Buscar = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.listBox2 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
-            // 
-            // cocinarreceta
-            // 
-            this.cocinarreceta.Location = new System.Drawing.Point(325, 181);
-            this.cocinarreceta.Name = "cocinarreceta";
-            this.cocinarreceta.Size = new System.Drawing.Size(168, 49);
-            this.cocinarreceta.TabIndex = 0;
-            this.cocinarreceta.Text = "Cocinar Receta";
-            this.cocinarreceta.UseVisualStyleBackColor = true;
-            this.cocinarreceta.Click += new System.EventHandler(this.Cocinarreceta_Click);
             // 
             // listBox1
             // 
@@ -73,24 +61,14 @@
             this.textBox1.TabIndex = 7;
             this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
-            // listBox2
-            // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(568, 54);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(220, 329);
-            this.listBox2.TabIndex = 9;
-            // 
             // RecetaIngrediente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.listBox2);
             this.Controls.Add(this.Buscar);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.cocinarreceta);
             this.Name = "RecetaIngrediente";
             this.Text = "RecetaIngrediente";
             this.Load += new System.EventHandler(this.RecetaIngrediente_Load);
@@ -100,11 +78,8 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button cocinarreceta;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button Buscar;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ListBox listBox2;
     }
 }

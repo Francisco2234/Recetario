@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Francisco
 {
-    public partial class Ingredeintes : Form
+    public partial class Form2 : Form
     {
-        public Ingredeintes()
+        public Form2()
         {
             InitializeComponent();
         }
@@ -22,18 +22,9 @@ namespace Francisco
 
         }
 
-        private void TextBox3_TextChanged(object sender, EventArgs e)
+        private void Agregar_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void TextBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void agregar_Click(object sender, EventArgs e)
-        {
+            
         }
     }
 }

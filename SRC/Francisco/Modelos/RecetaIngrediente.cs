@@ -8,7 +8,7 @@ namespace Francisco.Modelos
 {
     public class RecetaIngrediente
     {
-        public Ingredientes ingrediente { get; set; }
+        public Ingrediente ingrediente { get; set; }
         public int Cantidad { get; set; }
     }
 }

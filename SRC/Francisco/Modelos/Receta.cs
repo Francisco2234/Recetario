@@ -9,6 +9,6 @@ namespace Francisco.Modelos
     public class Receta
     {
         public string Nombre { get; set; }
-        public IList<RecetaIngrediente> 
+        public IList<RecetaIngrediente>
     }
 }
