@@ -51,6 +51,7 @@
             this.agregaringrediente.TabIndex = 1;
             this.agregaringrediente.Text = "Agregar Ingrediente";
             this.agregaringrediente.UseVisualStyleBackColor = true;
+            this.agregaringrediente.Click += new System.EventHandler(this.agregaringrediente_Click);
             // 
             // cocinar
             // 
@@ -60,6 +61,7 @@
             this.cocinar.TabIndex = 2;
             this.cocinar.Text = "Cocinar";
             this.cocinar.UseVisualStyleBackColor = true;
+            this.cocinar.Click += new System.EventHandler(this.cocinar_Click);
             // 
             // Menú
             // 

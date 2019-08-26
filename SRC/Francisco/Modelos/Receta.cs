@@ -10,5 +10,6 @@ namespace Francisco.Modelos
     {
         public string Nombre { get; set; }
         public IList<RecetaIngrediente>
+        recetaIngredientes { get; set; }
     }
 }

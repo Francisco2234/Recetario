@@ -26,5 +26,15 @@ namespace Francisco
         {
 
         }
+
+        private void agregaringrediente_Click(object sender, EventArgs e)
+        {
+            new Form2().ShowDialog();
+        }
+
+        private void cocinar_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
